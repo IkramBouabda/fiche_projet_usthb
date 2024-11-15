@@ -1,0 +1,284 @@
+body{
+    background-color: rgb(190, 190, 255);
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.logo{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+.text-container h1{
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+.text-container h2{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    text-decoration: underline;
+}
+.text-container h3{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 0;
+}
+.tp4{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.obligatoire{
+    color: red;
+}
+.nom{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.nom label{
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.prenom{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.prenom label{
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.matricule{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.matricule label{
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.email{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.email label{
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.téléphone{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.téléphone label{
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.intituléProjet{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.intituléProjet label{
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.resuméProjet{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.resuméProjet label{
+    display: block;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.palier{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.typeProjet{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.radio-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.radio-option {
+    display: flex;
+    align-items: center;
+}
+
+.radio-option label {
+    margin-left: 8px;
+}
+
+input[type="radio"]{
+    margin-right: 8px;
+}
+.spécialité{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.domaine{
+    width: 60%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+.required {
+    color: red;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+}
+input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+}
+input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+}
+button{
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    font-size: 1.2em;
+    padding: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    cursor: grab;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+button hover{
+    background-color:   rgb(189, 171, 58);
+}

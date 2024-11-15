@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <img src="logo_usthb.png" alt="Logo USTHB" class="logo">
+        <div class="text-container">
+            <h1>جامعة هواري بومدين للعلوم و التكنولوجيا</h1>
+            <h2>Université des Sciences et de Technologie Houari Boumediene</h2>
+            <h3>Faculté d'Informatique</h>
+        </div>
+    </div>
+    <div class="tp4">
+        <h2>TP 4-1:Fiche Projet de fin d'études
+            (Licence/Master),Filière Informatique
+        </h2>
+        <hr>
+        <p>Le nom et la photo associés à votre compte Google seront enregistrés lorsque vous
+            Importez des fichiers et que vous enverrez ce formulaire.Votre adresse e-mail ne fait pas
+            partie de votre réponse.
+        </p>
+        <p class="obligatoire">*Obligatoire</p>
+    </div>
+    <div class="nom">
+        <label for="name">Nom <span class="required">*</span></label>
+        <input type="text" name="nom" placeholder="votre réponse">
+    </div>
+    <div class="prenom">
+        <label for="prenom">Prénom <span class="required">*</span></label>
+        <input type="text" name="prénom" placeholder="votre réponse">
+    </div>
+    <div class="matricule">
+        <label for="matricule">Matricule <span class="required">*</span></label>
+        <input type="number" name="matricule" placeholder="votre réponse">
+    </div>
+    <div class="email">
+        <label for="email">Email <span class="required">*</span></label>
+        <input type="email" name="email" >
+    </div>
+    <div class="téléphone">
+        <label for="téléphone">Téléphone</label>
+        <input type="tel" name="téléphone" placeholder="votre réponse">
+    </div>
+    <div class="palier">
+        <label>Palier <span class="required">*</span></label>
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="palierLicence" name="palier" value="licence">
+                <label for="palierLicence">Licence</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="palierMaster" name="palier" value="master">
+                <label for="palierMaster">Master</label>
+            </div>
+        </div>
+    </div>
+    <div class="spécialité">
+        <label>Spécialité <span class="required">*</span></label><br>
+        <input list="spécialités" name="spécialité" placeholder="votre réponse"/>
+        <datalist id="spécialités">
+            <option value="Cyber Security" >
+            <option value="Software engennering" >
+        </datalist>
+    </div>
+    <div class="typeProjet">
+        <label>Type du projet <span class="required">*</span></label>
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="projetInterne" name="interne" value="interne">
+                <label for="interne">Interne</label>
+            </div>
+            <div class="radio-option">
+                <input type="radio" id="projetExterne" name="externe" value="externe">
+                <label for="externe">Externe</label>
+            </div>
+        </div>
+    </div>
+    <div class="domaine">
+        <label>Domaine <span class="required">*</span></label><br>
+        <input type="checkbox" id="domaine1" name="domaine1" value="domaine1" checked />
+        <label for="domaine1">Génie Logiciel,Système d'information et Base de Données</label><br>
+
+        <input type="checkbox" id="domaine2" name="domaine2" value="domaine2" checked />
+        <label for="domaine1">Réseaux Sécurité,Réseaux Mobiles et Système d'Exploitation</label><br>
+
+        <input type="checkbox" id="domaine3" name="domaine3" value="domaine3" checked />
+        <label for="domaine1">Intelligence Artificielle et Méta Heuristiques</label><br>
+
+        <input type="checkbox" id="domaine4" name="domaine4" value="domaine4" checked />
+        <label for="domaine1">Dévellopement Wen et Mobile</label><br>
+
+        <input type="checkbox" id="domaine5" name="domaine5" value="domaine5" checked />
+        <label for="domaine1">Architecture</label><br>
+
+        <input type="checkbox" id="domaine6" name="domaine6" value="domaine6" checked />
+        <label for="domaine1">Vision et Imagerie</label><br>
+
+        <input type="checkbox" id="domaine7" name="domaine7" value="domaine7" checked />
+        <label for="domaine1">Informatique Théorique</label><br>
+
+        <input type="checkbox" id="domaine8" name="domaine8" value="domaine8" checked />
+        <label for="domaine1">BioInformatique</label><br>
+
+    </div>
+    <div class="intituléProjet">
+        <label for="intituléProjet">Intitulé du projet <span class="required">*</span></label>
+        <input type="text" name="intituléProjet" placeholder="votre réponse">
+    </div>
+    <div class="resuméProjet">
+        <label for="resuméProjet">Résumé du projet <span class="required">*</span></label>
+        <input type="text" name="resuméProjet" placeholder="votre réponse">
+    </div>
+    <button>Envoyer </button>
+    
+</body>
+</html>
